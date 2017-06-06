@@ -12,13 +12,14 @@ p, ul, li {
 }
 
 a { 
-
-color:#ff7d4f;
+color: #002b5e;
 font-weight:bold;
 
 }
 
-
+a:hover {
+    color: #ff7d4f;
+}
 
 header {
 	text-align:center;
@@ -31,8 +32,7 @@ hr {
 	border-style: dashed;
 }
 
-h1, h2, h3, h4 { 
-	
+h1, h2, h3, h4 { 	
 	font-family: Century Gothic, arial, sans-serif;
 	text-transform: uppercase;
  } 
