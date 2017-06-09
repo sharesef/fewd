@@ -12,30 +12,93 @@ section {
   background: slategray;
 }
 
+/*CLEAR FIX */
+
+.two-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .three-columns {
   background: lightgray;
 }
 
+.three-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .color {
   height: 200px;
+
 }
+
+
 
 .red {
   background: firebrick;
+  width:50%;
+  float:right;
+  padding: 40px;
+
 }
+
 
 .blue {
   background: navy;
+    width:50%;
+    float:right;
 }
 
 .orange {
   background: orange;
+  width:33.33%;
+  float:left;
+  padding: 40px;
+
 }
 
 .yellow {
   background: gold;
+  width:33.33%;
+  float:left;
 }
 
 .green {
   background: forestgreen;
+  width:33.33%;
+  float:left;
 }
+
+.four-columns {
+  background: #333;
+}
+
+.four-columns:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.black {
+  background:black;
+  width:25%;
+  float:left;}
+
+.gold {
+  background: gold;
+  width:25%;
+  float:left;}
+
+.pink {
+  background: pink;
+  width:25%;
+  float:left;}
+
+ .silver {
+  background: silver;
+  width:25%;
+  float:left;}
+ } 
