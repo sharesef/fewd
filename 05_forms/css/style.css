@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.sign-up {
+  background-color: cadetblue;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.sign-up-heading, .sign-up-description {
+  text-align: center;
+}
+
+.sign-up-heading {
+  font-size: 42px;
+}
+
+.sign-up-description {
+  font-size: 24px;
+}
+
+.sign-up-form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 24px 48px;
+
+  background: white;
+}
+
+.sign-up-fields,.text-fields {
+  margin-top:30px;
+  margin-bottom:30px;
+
+}
+
+.sign-up-question, .sign-up-input {
+  display:block; 
+}
+
+input[type="text"],
+input[type="email"], 
+input[type="date"], 
+input[type="number"],
+input[type="submit"], 
+select {
+   width:100%;
+   font-size:24px;
+   padding:24px;
+}
+
+
+
+
+
