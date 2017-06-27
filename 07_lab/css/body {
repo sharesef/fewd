@@ -1,0 +1,121 @@
+ body {
+
+ 	background-color:red;
+ 	font-family:arial,sans-serif;
+ }
+
+h1 h2 h3 h4 h5 h6 {
+	font-family:georgia;
+}
+
+header {
+	background-color:black;
+	border-bottom:2px yellow solid;
+	color:white;
+	padding:10px;
+}
+
+header h2 {
+	font-family:serif;
+	font-size:18px;
+ }
+
+header .header-logo{
+ 	color:yellow;
+ 	text-decoration:none;
+ }
+
+ .strikethrough {
+ 	text-decoration:line-through;
+ }
+
+ .underline{
+ 	text-decoration:underline;
+
+ }
+ 
+header nav a {
+	color:white;
+ 	text-decoration:none;
+
+}
+ nav ul li{
+ 	list-style:none;
+ }
+
+nav .navigation li{
+	padding-left: 10px;
+	color:white;
+	display:inline-block;
+
+}
+
+nav .primary {
+	font-size:16px;
+	font-family:Impact,sans-serif;
+	letter-spacing:1px;
+	font-weight:bolder;
+	text-transform:uppercase;
+	
+}
+
+nav .secondary {
+	font-size:14px;
+	font-family:arial,sans-serif;
+	color:white;
+}
+
+#tagline{
+	background-color:#999;
+	color:black;
+	padding:1em;
+	font-family:georgia;
+	font-style: italic;
+	font-weight:bolder;
+}
+
+.hero {
+	padding-top: 1rem;
+  	padding-bottom: 1rem;
+	background-image: url('../images/coworking.jpg');
+}
+
+.hero #sign-up-call-to-action{
+	font-family:arial;
+
+}
+
+
+.sign-up-call-to-action {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 5px black;
+}
+
+button{
+	padding:5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	font-family:impact,arial;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bolder;
+}
+
+.yellow-button {
+	background-color:yellow;
+}
+
+.info-box{
+	background-color:#999;
+	border-right:1px solid black;
+
+}
+
+
+footer {
+	background:black;
+	color:white;
+}
+
+
+ 

@@ -1,0 +1,64 @@
+body {
+	background-color:red;
+}
+
+header {
+
+ 	background-color: black;
+ 	color:white;
+ 	font-family:arial,sans-serif;
+ 	border-bottom:yellow 2px solid;
+ 	padding:5px;
+}
+
+header h1 {
+ 	color:yellow;
+ 	font-family: serif;
+ 	font-size:30px;
+}
+
+nav ul li {
+	list-style: none;
+	font-family:arial,sans-serif;
+	font-size:24px;
+	padding:10px;
+	display:inline;
+}
+
+nav li #bignav-item{
+	font-size:28px;
+
+}
+/*
+
+
+.tagline-box {
+
+}
+
+.cta-box{
+
+}
+
+.cta-text
+
+
+.ctas{
+
+}
+
+.cta-button {
+
+}
+
+.gray {
+
+}
+
+.yellow {
+
+}
+
+.footer {
+
+}

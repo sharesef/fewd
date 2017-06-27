@@ -1,64 +1,288 @@
-body {
-	background-color:red;
+ body {
+
+ 	background-color:#999;
+ 	font-family:arial,sans-serif;
+ 	margin:0;
+
+ }
+
+h1 h2 h3 h4 h5 h6 {
+	font-family:georgia;
 }
 
 header {
+	background-color:black;
+	border-bottom:2px yellow solid;
+	color:white;
+	padding:10px;
+	padding-top:1em;
+	padding-bottom: 1em;
+}
 
- 	background-color: black;
- 	color:white;
- 	font-family:arial,sans-serif;
- 	border-bottom:yellow 2px solid;
- 	padding:5px;
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header h2 {
+	font-family:serif;
+	font-size:18px;
+ }
+
+header a {
+	text-decoration:none;
+
 }
 
 header h1 {
- 	color:yellow;
- 	font-family: serif;
- 	font-size:30px;
+	font-family:serif;
 }
 
-nav ul li {
-	list-style: none;
-	font-family:arial,sans-serif;
-	font-size:24px;
-	padding:10px;
+header a .nav-list{
 	display:inline;
 }
 
-nav li #bignav-item{
-	font-size:28px;
+header .header-logo{
+ 	color:yellow;
+ 	
+ }
+
+ .strikethrough {
+ 	text-decoration:line-through;
+ }
+
+ .underline{
+ 	text-decoration:underline;
+
+ }
+ 
+header nav a {
+	color:white;
+ 	text-decoration:none;
 
 }
-/*
+ nav ul li{
+ 	list-style:none;
+ }
 
 
-.tagline-box {
-
-}
-
-.cta-box{
-
-}
-
-.cta-text
-
-
-.ctas{
-
-}
-
-.cta-button {
-
-}
-
-.gray {
-
-}
-
-.yellow {
+nav .nav-list li{
+	padding-left: 10px;
+	color:white;
+	display:inline-block;
 
 }
 
-.footer {
+nav .navigation li{
+	padding-left: 10px;
+	color:white;
+	display:inline-block;
 
 }
+
+nav .primary {
+	font-size:16px;
+	font-family:Impact,sans-serif;
+	letter-spacing:1px;
+	font-weight:bolder;
+	text-transform:uppercase;
+	
+}
+
+nav .secondary {
+	font-size:14px;
+	font-family:arial,sans-serif;
+	color:white;
+}
+
+#tagline{
+	background-color:#999;
+	color:black;
+	padding:1em;
+	font-family:georgia;
+	font-style: italic;
+	font-weight:bolder;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero {
+	padding-top: 1rem;
+  	padding-bottom: 1rem;
+	background-image: url('../images/coworking.jpg');
+	background-position: center;
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
+
+.hero:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hero #sign-up-call-to-action{
+	font-family:arial;
+
+}
+
+
+.sign-up-call-to-action {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 5px black;
+  width:40%;
+  float:right;
+  padding:1rem;
+  box-sizing: border-box;
+}
+
+button{
+	padding:5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	font-family:impact,arial;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bolder;
+	margin-bottom: 1em
+}
+
+.yellow-button {
+	background-color:yellow;
+	width:100%;
+}
+
+.info-boxes{
+	background-color:#999;
+}
+
+.info-box{
+	border-right:1px solid black;
+
+}
+
+.info-boxes:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-box {
+  width: 33.3%;
+  float: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+#developers{
+	background-color:#999;
+	padding-left: 1rem;
+  	padding-right: 1rem;
+  	padding-top: .75rem;
+  	padding-bottom: .75rem;
+	box-sizing: border-box;
+
+}
+
+#developers:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dev-profile {
+  width: 25%;
+  float:left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 5px #999 solid;
+  box-sizing: border-box;
+  background-color:white;
+}
+
+img {
+
+
+
+}
+
+
+
+.skill-type {
+	display:inline;
+	border-radius:5px;
+	background-color: #333;
+	padding-left: 1rem;
+  	padding-right: 1rem;
+  	padding-top: .25rem;
+    padding-bottom: .25rem;
+	color:white;
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+.contact-button {
+	background-color:yellow;
+	width:100%;
+	padding:5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	font-family:impact,arial;
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bolder;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align:center;
+	box-sizing: border-box;
+
+}
+
+footer {
+	background:black;
+	color:white;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .secondary{
+    display: none;
+  }
+
+
+  header nav {
+    float: none;
+  }
+
+  .sign-up-call-to-action {
+    width: 100%;
+
+  }
+
+  .info-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+.dev-profile {
+	width:100%;
+	text-align:center;
+
+}
+
+	}
