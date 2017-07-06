@@ -1,0 +1,143 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+h1 {
+  background-color: coral;
+  margin: 0;
+  padding: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.two-columns-squished {
+  background: slategray;
+}
+
+.two-columns-space-between {
+  background: lightgray;
+}
+
+.two-columns-space-around {
+  background: slategray;
+}
+
+.two-columns-reversed {
+  background: lightgray;
+}
+
+.two-columns-vertical {
+  background: slategray;
+}
+
+.two-columns-vertical-reversed {
+  background: lightgray;
+}
+
+.two-columns-against-the-bottom { /* This rhymes, hehehe */
+  background: slategray;
+  height: 600px;
+}
+
+.two-columns-multiline {
+  background: lightgray;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+}
+
+.yellow {
+  background: gold;
+}
+
+.green {
+  background: forestgreen;
+}
+
+.papayawhip {
+  background: papayawhip;
+  color: midnightblue;
+}
+
+.cornflowerblue {
+  background: cornflowerblue;
+}
+
+.lime {
+  background: lime;
+}
+
+.fuchsia {
+  background: fuchsia;
+}
+
+.coral {
+  background: coral;
+}
+
+.skyblue {
+  background: skyblue;
+}
+
+.gray-one {
+  color: black;
+  background: #fff;
+}
+
+.gray-two {
+  color: black;
+  background: #eee;
+}
+
+.gray-three {
+  color: black;
+  background: #ddd;
+}
+
+.gray-four {
+  color: black;
+  background: #ccc;
+}
+
+.gray-five {
+  color: black;
+  background: #bbb;
+}
+
+.gray-six {
+  color: black;
+  background: #aaa;
+}
