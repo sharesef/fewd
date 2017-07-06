@@ -18,9 +18,10 @@ header {
 	padding-top:1em;
 	padding-bottom: 1em;
 	width:100%;
+	position: sticky;
+          top: 1px;
 
 }
-
 
 header:after {
   content: "";
@@ -84,7 +85,6 @@ header nav ul li{
 .primary-navigation, .secondary-navigation {
 	padding-left: 10px;
 	color:white;
-	display:flex;
 	
 
 }
@@ -175,25 +175,24 @@ button:hover {
 
 .info-boxes{
 	background-color:#999;
+	padding-left: 1rem
+	padding-right: 1rem;
 	display:flex;
 	
 }
-
-.info-box{
-	border-right:1px solid black;
-
-}
+	
 
 .info-boxes:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .info-box {
+  border-right:1px solid black;
   width: 33.3%;
-  padding-left: 1rem
-  padding-right: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   box-sizing: border-box;
 }
 
@@ -225,13 +224,11 @@ button:hover {
   box-sizing: border-box;
   background-color:white;
 
+
 }
 
 
-
-
 .skill-type {
-	display:inline;
 	border-radius:5px;
 	background-color: #333;
 	padding-left: 1rem;
@@ -240,7 +237,16 @@ button:hover {
     padding-bottom: .25rem;
 	color:white;
 	font-size: 10px;
-	box-sizing: border-box;
+	box-sizing: border-box; 
+	display:inline-flex;
+	justify-content: space-between;
+
+}
+
+.skill-type:hover {
+	
+	background-color: orange;
+
 }
 
 .contact-button {
@@ -260,6 +266,11 @@ button:hover {
 
 }
 
+.contact-button:hover {
+	background-color: red;
+	color:white;
+}
+
 footer {
 	background:black;
 	color:white;
@@ -270,8 +281,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .secondary{
+  .secondary-navigation{
     display: none;
+  }
+
+  .secondary{
+  	display: none;
+
   }
 
 
@@ -304,6 +320,8 @@ footer {
 header {
 	position:fixed;
 }
+
+
 .developers	{
 	display:flex;
 	flex-direction: row;
@@ -316,5 +334,8 @@ header {
 	text-align:center;
 
 }
+
+header .header-logo{
+	font-size: 22px;
 
 	}
