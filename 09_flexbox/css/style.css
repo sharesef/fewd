@@ -71,10 +71,14 @@ header nav a {
  	
 
 }
- nav ul li{
- 	list-style:none;
 
- }
+header nav ul li{
+    float: none;
+    display:inline-flex;
+    flex-direction:row;
+    list-style:none;
+}
+
 
 
 .primary-navigation, .secondary-navigation {
@@ -271,8 +275,10 @@ footer {
   }
 
 
-  header nav {
+  header nav ul li{
     float: none;
+    display:inline-flex;
+    flex-direction:row;
   }
 
 
