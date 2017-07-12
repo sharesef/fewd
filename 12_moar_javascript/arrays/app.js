@@ -13,9 +13,13 @@ console.log(colors.length);
 
 /* Print the I like X color for each color in the array*/
 
-console.log("I like " + colors[0]);
+/* console.log("I like " + colors[0]);
 console.log("I like " + colors[1]);
 console.log("I like " + colors[2]);
 console.log("I like " + colors[3]); //OR// 
-console.log("I like " + colors.length - 1);
+console.log("I like " + colors.length - 1); */
 /*var fruits = ["apple", "Orange", "Grape"]; */
+
+for (var i = 0; i < colors.length; i++) {
+	console.log("I really like " + i[number]);
+}
