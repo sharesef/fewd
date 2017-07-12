@@ -16,5 +16,6 @@ console.log(colors.length);
 console.log("I like " + colors[0]);
 console.log("I like " + colors[1]);
 console.log("I like " + colors[2]);
-console.log("I like " + colors[3]);
+console.log("I like " + colors[3]); //OR// 
+console.log("I like " + colors.length - 1);
 /*var fruits = ["apple", "Orange", "Grape"]; */
