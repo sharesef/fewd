@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../images/dark-triangles.png");
+  background-repeat: repeat;
+  color: white;
+}
+
+header {
+  background: #fcfcfc;
+  box-shadow: 0 0 5px #fff;
+  color: #333;
+}
+
+.navigation {
+  position:relative;
+}
+.navigation-items{
+  display:none;
+}
+
+.navigation-icon {
+  width: 40px;
+
+}
+.navigation.navigation-enabled {
+  background-color: #777;
+}
+
+.navigation-enabled .navigation-items {
+  display: block;
+  position:absolute;
+  right:0;
+  top:48;
+  background-color: #444;
+  padding:12px;
+  
+}
+
+header {
+  background-color:#000;
+  color:#fff;
+  padding-right:12px;
+  padding-left:12px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.profile {
+  width:30%;
+}
+.profile-picture img{
+  border-radius: 50%;
+  border: 5px solid white;
+  width:100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .new-tweed-text, .new-tweed-button{
+  padding:1em;
+  margin:.5em;
+  width:100%;
+  font-size: 18px;
+  border-radius: 7px;
+}
+.new-tweed-text{
+  resize:none;
+}
+
+.new-tweed-button{
+  font-weight:bolder;
+  background-color: yellow;
+  border:none;
+  border-bottom: 5px solid;
+}
+
+.new-tweed-button:hover {
+   background-color: orange;
+   color:white;
+   border:0;
+}
+
+.tweeds {
+  background-color: white;
+  color:black;
+  font-size:18px;
+  font-family: arial;
+  padding:0;
+  margin:0;
+  
+}
+
+.tweed {
+  padding:1em;
+  border-top:1px #333 solid;
+  position:relative;
+}
+
+.delete-tweed{
+  position:absolute;
+  top:12px;
+  right:12px;
+
+}
+
+
+.tweed:first-child {
+  border-top:0;
+}
+
+
+.activity {
+width:60%;
+}
